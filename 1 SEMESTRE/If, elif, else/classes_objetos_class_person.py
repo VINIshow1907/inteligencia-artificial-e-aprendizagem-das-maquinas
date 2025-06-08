@@ -5,6 +5,7 @@ class Person:
 
     def myfunc(self):
         print("Hello My name is " + self.name)
+        print(f"I am {self.age} years old")
 
 p1 = Person("John", 36)
 p1.myfunc()
